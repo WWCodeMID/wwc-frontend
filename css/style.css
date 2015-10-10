@@ -1,66 +1,93 @@
 body {
-	background-color: #F2E8D7;
-}
+  background-color: #F2E8D7; }
+
 /*Fonts*/
-.font-pacifico { font-family: 'Pacifico', Sans-Serif; }
+.font-pacifico {
+  font-family: 'Pacifico', Sans-Serif; }
+
 /*Colors*/
-.color-main { color: #F2A03D; }
-.color-main-light { color: #F2865E; }
-.color-main-dark { color: #F25749; }
-.color-accent { color: #B0BF39; }
-.color-light { color: rgb(250,250,250); }
-.color-dark { color: #323232; }
-.color-main-bg { background-color: #F2A03D; }
-.color-main-light-bg { background-color: #F2865E; }
-.color-main-dark-bg { background-color: #F25749; }
-.color-accent-bg { background-color: #B0BF39; }
-.color-light-bg { background-color: rgb(250,250,250); }
-.color-dark-bg { background-color: #323232; }
+.color-main {
+  color: #F2A03D; }
+
+.color-main-light {
+  color: #F2865E; }
+
+.color-main-dark {
+  color: #F25749; }
+
+.color-accent {
+  color: #B0BF39; }
+
+.color-light {
+  color: #fafafa; }
+
+.color-dark {
+  color: #323232; }
+
+.color-main-bg {
+  background-color: #F2A03D; }
+
+.color-main-light-bg {
+  background-color: #F2865E; }
+
+.color-main-dark-bg {
+  background-color: #F25749; }
+
+.color-accent-bg {
+  background-color: #B0BF39; }
+
+.color-light-bg {
+  background-color: #fafafa; }
+
+.color-dark-bg {
+  background-color: #323232; }
+
 /*Imgs*/
-.logo { 
-	content: url("../img/logo.jpg"); 
-	width: 20%;
-}
+.logo {
+  content: url("../img/logo.jpg");
+  width: 20%; }
+
 .bg {
-	background-image: url("../img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .burguer {
-	content: url("../img/hamburguesa.png"); 
-	width: 20%;
-}
+  content: url("../img/hamburguesa.png");
+  width: 20%; }
+
 .icecream {
-	content: url("../img/icecream.png"); 
-	width: 20%;
-}
+  content: url("../img/icecream.png");
+  width: 20%; }
+
 .sandwich {
-	content: url("../img/sandwich.png"); 
-	width: 20%;
-}
+  content: url("../img/sandwich.png");
+  width: 20%; }
+
 .hotdog {
-	content: url("../img/hotdog.png"); 
-	width: 20%;
-}
+  content: url("../img/hotdog.png");
+  width: 20%; }
+
 /*Addons*/
 .fake-fill {
-	padding: 20px;
-}
+  padding: 20px; }
+
 .no-margin {
-	margin: 0;
-}
+  margin: 0; }
+
 .margin-top {
-	margin-top: 10px;
-}
+  margin-top: 10px; }
+
 .fit-top {
-	top: -10px;
-}
+  top: -10px; }
+
 .margin-top {
-	margin-top: 2%;
-}
+  margin-top: 2%; }
+
 .box-shadow-5 {
-	box-shadow: 0px 5px 5px #323232;
-}
+  box-shadow: 0px 5px 5px #323232; }
+
 .box-shadow-10 {
-	box-shadow: 0px 5px 10px #323232;
-}
+  box-shadow: 0px 5px 10px #323232; }
+
+/*# sourceMappingURL=style.css.map */
