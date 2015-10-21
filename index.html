@@ -1,16 +1,16 @@
- <!doctype html>
+<!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>FastFud</title>
-    <meta name="description" content="Descripcion">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Extra css-->
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FastFud</title>
+  <meta name="description" content="Descripcion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Extra css-->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>  
   <!-- Navegacion -->
@@ -23,26 +23,26 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
   <!-- Componentes del Sitio -->
-  <main class="fit-top">
+  <main>
     <!-- Cuerpo de Pagina -->
     <div class="container-fluid bg">
       <div class="col-md-12 text-center">
-        <h1 class="font-pacifico color-light" id="title">Fast Fud</h1>
+        <h1 class="color-light font-pacifico" id="title">Fast Fud</h1>
           <hr/>
         <h4 class="color-light">¡Ven!, ¡Come!... y ¡MUCHO!</h4>
         <div class="logo center-block img-rounded box-shadow-5"></div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="col-md-12 color-main-bg margin-top fake-fill img-rounded">
+    <div class="container-fluid color-light-bg padding">
+      <div class="col-md-12 img-rounded">
         <section>
           <h4>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -71,30 +71,30 @@
         </section>
       </div>
     </div>
-    <div class="containter-fluid margin-top">
+    <div class="container-fluid color-light-bg padding">
       <section>
-        <div class="col-md-3 img-rounded box-shadow-10">
+        <div class="col-md-3 img-rounded">
           <div class="burguer"></div>
           <p>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div class="col-md-3 img-rounded box-shadow-10">
+        <div class="col-md-3 img-rounded">
           <div class="hotdog"></div>
           <p>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div class="col-md-3 img-rounded box-shadow-10">
+        <div class="col-md-3 img-rounded">
           <div class="icecream"></div>
           <p>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-        <div class="col-md-3 img-rounded box-shadow-10">
+        <div class="col-md-3 img-rounded">
           <div class="sandwich"></div>
           <p>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -103,8 +103,13 @@
         </div>
       </section>
     </div> 
-    <div class="container-fluid">
-      <div class="col-md-12 fake-fill margin-top color-light-bg">
+    <div class="container-fluid padding">
+      <div class="col-md-12">
+        <div id="map"></div>
+      </div>
+    </div>
+    <div class="container-fluid color-light-bg padding">
+      <div class="col-md-12">
         <h4>
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -128,7 +133,7 @@
   <!-- JS links --> 
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/modernizr-2.8.3.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
   <script src="js/javascript.js"></script>
 </body>
 </html>

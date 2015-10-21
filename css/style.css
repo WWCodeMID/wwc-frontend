@@ -1,46 +1,36 @@
+@font-face {
+  font-family: Literata;
+  src: url("../fonts/literata/literata-regular.otf"); }
 body {
-  background-color: #F2E8D7; }
+  background-color: #f2a03d !important;
+  color: #202020 !important;
+  font-family: 'Literata', Sans-Serif !important; }
 
 /*Fonts*/
 .font-pacifico {
   font-family: 'Pacifico', Sans-Serif; }
 
+.font-literata {
+  font-family: 'Literata', Sans-Serif; }
+
 /*Colors*/
 .color-main {
-  color: #F2A03D; }
-
-.color-main-light {
-  color: #F2865E; }
-
-.color-main-dark {
-  color: #F25749; }
-
-.color-accent {
-  color: #B0BF39; }
+  color: #f2a03d; }
 
 .color-light {
   color: #fafafa; }
 
 .color-dark {
-  color: #323232; }
+  color: #202020; }
 
 .color-main-bg {
-  background-color: #F2A03D; }
-
-.color-main-light-bg {
-  background-color: #F2865E; }
-
-.color-main-dark-bg {
-  background-color: #F25749; }
-
-.color-accent-bg {
-  background-color: #B0BF39; }
+  background-color: #f2a03d; }
 
 .color-light-bg {
   background-color: #fafafa; }
 
 .color-dark-bg {
-  background-color: #323232; }
+  background-color: #202020; }
 
 /*Imgs*/
 .logo {
@@ -69,25 +59,16 @@ body {
   width: 20%; }
 
 /*Addons*/
-.fake-fill {
+#map {
+  height: 512px; }
+
+.box-shadow-5 {
+  box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.5); }
+
+.padding {
   padding: 20px; }
 
 .no-margin {
   margin: 0; }
-
-.margin-top {
-  margin-top: 10px; }
-
-.fit-top {
-  top: -10px; }
-
-.margin-top {
-  margin-top: 2%; }
-
-.box-shadow-5 {
-  box-shadow: 0px 5px 5px #323232; }
-
-.box-shadow-10 {
-  box-shadow: 0px 5px 10px #323232; }
 
 /*# sourceMappingURL=style.css.map */
