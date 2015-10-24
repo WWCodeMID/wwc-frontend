@@ -1,8 +1,9 @@
 $(document).ready(function() {
-
-	var storage = new Lista(clave);
+	//Instanciamos nuestro objeto storage creado, con la clave
 	var clave = 'carro_compras';
+	var storage = new Lista(clave);
 
+	//Funcion para desplegar las imagenes en el menu cuando son seleccionadas en la lista
 	$( "#comida" ).click(function( event ) {
 	  var target = $( event.target );
 	  target = target[0].textContent;
@@ -22,22 +23,28 @@ $(document).ready(function() {
 	  }
 	});
 
+	//Se agrega un escucha de tipo storage a documento para crear nuestro localStorage
 	$(document).bind('storage', function (e) {
 		console.log(e.key);
+		//Desplegamos, si existen, las actividades anteriores
 		actualizarLista(storage.obtenerActividades());
 	});
 
+	//Cuando hagamos click en la imagen de la comida, se agrega al carro de compras
 	$('#img_comida').click(function(e) {
 		e.preventDefault();
 		var actividad = $('#text_comida')[0].innerHTML;
 		if(storage.agregarActividad(actividad)){
 			console.log("Se agregó la actividad");
+			//Cada que agregamos una nueva actividad tenemos que actualzar la lista
 			actualizarLista(storage.obtenerActividades());
 		}
 	});
 
+	//Actualizamos la lista
 	function actualizarLista(actividades){
 		var lista = document.querySelector('#compras');
+		console.log(document.querySelector('#compras'));
 		lista.innerHTML = "";
 		if(actividades != null){
 			for(i in actividades){

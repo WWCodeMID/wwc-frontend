@@ -22,8 +22,6 @@ $(document).ready(function() {
 		navigator.geolocation.getCurrentPosition(function(posicion) {
 			//Instanciamos nuestra geolocalizacion
 			geolocalizacion = new google.maps.LatLng(posicion.coords.latitude,posicion.coords.longitude);
-			console.log(center_geo);
-			console.log(geolocalizacion);
 			//Creamos los marcadores
 			//Meta
 			marker = new google.maps.Marker({
@@ -44,7 +42,7 @@ $(document).ready(function() {
 					//Calback para el error, en caso de error
 					console.log(error);
 				}, {
-					//Tiempo de vida de el markador
+					//Tiempo de vida de el refresh
 					maximumAge: 0
 				});
 		},function(error) { 
