@@ -7,8 +7,9 @@ body {
   font-family: 'Literata', Sans-Serif !important; }
 
 /*Fonts*/
-.font-pacifico {
-  font-family: 'Pacifico', Sans-Serif; }
+.font-quicksand {
+  font-family: 'Quicksand', Sans-Serif; 
+  font-weight: bold;}
 
 .font-literata {
   font-family: 'Literata', Sans-Serif; }
@@ -44,19 +45,19 @@ body {
 
 .burguer {
   content: url("../img/hamburguesa.png");
-  width: 20%; }
+  width: 60%; }
 
 .icecream {
   content: url("../img/icecream.png");
-  width: 20%; }
+  width: 60%; }
 
 .sandwich {
   content: url("../img/sandwich.png");
-  width: 20%; }
+  width: 60%; }
 
 .hotdog {
   content: url("../img/hotdog.png");
-  width: 20%; }
+  width: 60%; }
 
 /*Addons*/
 #map {

@@ -1,46 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Tienda de Comida</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>FastFud</title>
+  <meta name="description" content="Descripcion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- Extra css-->
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<h1>COMIDA!!</h1>
-				<h5>-Yay! comida</h5>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
-	<hr/>
-	<main>
-		<div>
-			<h3>Ven! COME! MUCHO!</h3>
-			<h7>Danos tu dinero</h7>
-		</div>
-		<div>
-			<div>
-				[IMG---1]
-				[IMG---2]
-				[IMG---3]
-			</div>
-			<div>
-				[IMG---4]
-				[IMG---5]
-				[IMG---6]
-			</div>
-		</div>
-	</main>
-	<hr/>
-	<footer>
-		<ul>
-			<li>Terminos y Condiciones</li>
-			<li>No veas esto</li>
-		</ul>
-		<p>NUM: 9999999999 </p>
-	</footer>
+<body>  
+  <!-- Navegacion -->
+  <nav class="navbar navbar-default no-margin">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FastFud</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- Componentes del Sitio -->
+  <main>
+    <!-- Cuerpo de Pagina -->
+    <br>
+    	<div class="container-fluid">
+    		<div class="col-md-6">
+    			<!-- Menu de Comida -->
+    			<div class="list-group" id="comida">
+					  <button class="list-group-item">Helado</button>
+					  <button class="list-group-item">Hamburguesa</button>
+					  <button class="list-group-item">Sandwich</button>
+					  <button class="list-group-item">Hotdog</button>
+					</div>
+					<!-- Menu de compras -->
+					<div class="text-center font-quicksand">
+						<h2><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Carrito de compras</h2>
+						<h4>Has click en la imagen para agregar al carrito</h4>
+						<div class="color-light-bg">
+							<ol id='compras' class="list-group"></ol>
+						</div>
+					</div>
+				</div>
+				<div id="galery" class="col-md-6 color-light-bg img-rounded padding">
+					<div id="img_comida" class=""></div>
+					<h1 id="text_comida" class="text-center font-quicksand">Seleccione la comida!!! :D</h1>
+				</div>
+    	</div>
+    <!-- Footer -->
+  </main>
+  <!-- JS links --> 
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/storage.js"></script>
 </body>
 </html>

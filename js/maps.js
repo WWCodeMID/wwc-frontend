@@ -1,4 +1,4 @@
-//Funcion que ejecuta todo cuando carga
+//Funcion que ejecuta todo cuando carga	
 $(document).ready(function() {
 	//Variables globales
 	var map;
