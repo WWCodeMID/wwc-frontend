@@ -34,7 +34,7 @@ $(document).ready(function() {
 	$('#img_comida').click(function(e) {
 		e.preventDefault();
 		var actividad = $('#text_comida')[0].innerHTML;
-		if(storage.agregarActividad(actividad)){
+		if(storage.agregarActividad(actividad)) {
 			console.log("Se agregó la actividad");
 			//Cada que agregamos una nueva actividad tenemos que actualzar la lista
 			actualizarLista(storage.obtenerActividades());
@@ -46,8 +46,8 @@ $(document).ready(function() {
 		var lista = document.querySelector('#compras');
 		console.log(document.querySelector('#compras'));
 		lista.innerHTML = "";
-		if(actividades != null){
-			for(i in actividades){
+		if(actividades != null) {
+			for(i in actividades) {
 				var actividad = actividades[i];
 				var elemento = document.createElement('li');
 				$(elemento).addClass('list-group-item');

@@ -6,6 +6,23 @@ body {
   color: #202020 !important;
   font-family: 'Literata', Sans-Serif !important; }
 
+nav {
+  z-index:1 !important;
+  margin: 0 !important;
+  position: fixed !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+a {
+  transition: all 1s;
+  color: white !important;
+}
+
+a:hover {
+  background-color: #f2a03d !important;
+}
+
 /*Fonts*/
 .font-quicksand {
   font-family: 'Quicksand', Sans-Serif; 
@@ -32,6 +49,9 @@ body {
 
 .color-dark-bg {
   background-color: #202020; }
+
+.transparent {
+  background-color: rgba(0,0,0,0.5) !important; }
 
 /*Imgs*/
 .logo {
@@ -69,7 +89,15 @@ body {
 .padding {
   padding: 20px; }
 
+.padding-top {
+  padding-top: 4em; }
+
 .no-margin {
   margin: 0; }
+
+.nav-justified > li {
+  margin: 0 auto;
+  float:none;
+}
 
 /*# sourceMappingURL=style.css.map */

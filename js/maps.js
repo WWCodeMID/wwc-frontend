@@ -5,7 +5,7 @@ $(document).ready(function() {
 	var marker;
 	var me_marker;
 	var geolocalizacion;
-	var center_geo = new google.maps.LatLng(20.967100, -89.623701);
+	var CENTER_GEO = 
 
 	//El mapa se lanza hasta que carga la pagina
 	google.maps.event.addDomListener(window,'load',dibujarMapa);
@@ -26,7 +26,7 @@ $(document).ready(function() {
 			//Meta
 			marker = new google.maps.Marker({
 				map: map,
-				position:center_geo,
+				position:CENTER_GEO,
 				visible: true
 			});
 			//YO
