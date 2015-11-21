@@ -62,38 +62,30 @@
         </section>
       </div>
     </div>
-    <div class="container-fluid color-light-bg padding">
-      <section>
-        <div class="col-md-3 img-rounded">
-          <div class="burguer"></div>
-          <p>
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="col-md-3 img-rounded">
-          <div class="hotdog"></div>
-          <p>
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="col-md-3 img-rounded">
-          <div class="icecream"></div>
-          <p>
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="col-md-3 img-rounded">
-          <div class="sandwich"></div>
-          <p>
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </section>
-    </div> 
+    <div class="container-fluid color-light-bg padding" id="galery">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="slider_container">
+          <div class="slideContainer">
+              <div class="slide fullScreen"><div class="center-block burguer"></div></div>
+              <div class="slide fullScreen"><div class="center-block hotdog"></div></div>
+              <div class="slide fullScreen"><div class="center-block icecream"></div></div>
+              <div class="slide fullScreen"><div class="center-block sandwich"></div></div>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-md-2 col-md-offset-5">
+          <nav>
+            <ul class="pagination slider_controls">
+              <li><a>1</a></li>
+              <li><a>2</a></li>
+              <li><a>3</a></li>
+              <li><a>4</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
     <div class="container-fluid padding">
       <div class="col-md-12">
         <div id="map"></div>
@@ -126,5 +118,6 @@
   <script src="js/bootstrap.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js?&sensor=true"></script>
   <script src="js/maps.js"></script>
+  <script src="js/slide.js"></script>
 </body>
 </html>

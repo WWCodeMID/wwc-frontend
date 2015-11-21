@@ -6,7 +6,7 @@ body {
   color: #202020 !important;
   font-family: 'Literata', Sans-Serif !important; }
 
-nav {
+.navbar {
   z-index:1 !important;
   margin: 0 !important;
   position: fixed !important;
@@ -14,12 +14,12 @@ nav {
   border-radius: 0 !important;
 }
 
-a {
+.h4 > a {
   transition: all 1s;
   color: white !important;
 }
 
-a:hover {
+.h4 > a:hover {
   background-color: #f2a03d !important;
 }
 
@@ -83,6 +83,9 @@ a:hover {
 #map {
   height: 512px; }
 
+#galery {
+  height: 512px; }
+
 .box-shadow-5 {
   box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.5); }
 
@@ -104,21 +107,14 @@ a:hover {
   float:none; }
 
 .slider_container {
-  position: fixed;
-  overflow: hidden;
-  top: 0px;
-  left: 0;
-  z-index: -2;
-  background-color: #000; }
+  overflow: hidden; }
 
 .slider_container .slideContainer {
   white-space: nowrap;
   height: 100%; }
 
 .slider_container .slideContainer .slide {
-  display: inline-block;
-  background-color: #fff;
-  margin-right: -4px; }
+  display: inline-block; }
 
 .fullScreen {
   height: 100%;

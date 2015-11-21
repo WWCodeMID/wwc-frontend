@@ -46,6 +46,14 @@
   <!-- JS links --> 
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/slide.js"></script>
+  <script>
+    (function() {
+      function prevent() {
+        document.querySelector('form').addEventListener('submit', function(event) {
+          event.preventDefault();
+        }, false);
+      } 
+      prevent();})();
+  </script>
 </body>
 </html>
