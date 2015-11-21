@@ -95,9 +95,39 @@ a:hover {
 .no-margin {
   margin: 0; }
 
+.margin-top {
+  margin-top: 5em;
+}
+
 .nav-justified > li {
   margin: 0 auto;
-  float:none;
-}
+  float:none; }
+
+.slider_container {
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  left: 0;
+  z-index: -2;
+  background-color: #000; }
+
+.slider_container .slideContainer {
+  white-space: nowrap;
+  height: 100%; }
+
+.slider_container .slideContainer .slide {
+  display: inline-block;
+  background-color: #fff;
+  margin-right: -4px; }
+
+.fullScreen {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.fit {
+  width: 512px;
+  height: 1024px; }
 
 /*# sourceMappingURL=style.css.map */

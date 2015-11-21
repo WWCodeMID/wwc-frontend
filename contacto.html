@@ -22,18 +22,30 @@
   </nav>
 
   <!-- Componentes del Sitio -->
-  <main class="padding-top">
-    <!-- Cuerpo de Pagina -->
-    <br>
-    	<div class="container-fluid">
-    		<h1 class="text-center">HOLA</h1>
-    	</div>
-    <!-- Footer -->
-  </main>
+  <div class="container-fluid">
+    <div class="col-md-8 col-md-offset-2 margin-top">
+      <div class="color-light-bg img-rounded padding">
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre: </label>
+            <input class="form-control" type="text" name="nombre" placeholder="Su nombre">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo: </label>
+            <input class="form-control" type="email" name="correo" placeholder="usuario@dominio.com">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comentario: </label>
+            <textarea class="form-control" name="comment" rows="3"></textarea>
+          </div>
+          <input class="btn btn-default" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
   <!-- JS links --> 
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/storage.js"></script>
-  <script src="js/menu.js"></script>
+  <script src="js/slide.js"></script>
 </body>
 </html>
